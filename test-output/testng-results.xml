@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="3" total="5" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="23599" started-at="2021-02-25T05:40:27 IST" finished-at="2021-02-25T05:40:51 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="23599" started-at="2021-02-25T05:40:27 IST" finished-at="2021-02-25T05:40:51 IST">
+      <class name="testcases.EditLead">
+        <test-method status="PASS" signature="launchApplication(java.lang.String)[pri:0, instance:testcases.EditLead@2641e737]" name="launchApplication" is-config="true" duration-ms="2338" started-at="2021-02-25T05:40:40 IST" finished-at="2021-02-25T05:40:42 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[english]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method status="PASS" signature="runEditLead()[pri:0, instance:testcases.EditLead@2641e737]" name="runEditLead" duration-ms="8971" started-at="2021-02-25T05:40:42 IST" finished-at="2021-02-25T05:40:51 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runEditLead -->
+      </class> <!-- testcases.EditLead -->
+      <class name="testcases.CreateLead">
+        <test-method status="PASS" signature="initExtentReport()[pri:0, instance:testcases.CreateLead@548ad73b]" name="initExtentReport" is-config="true" duration-ms="205" started-at="2021-02-25T05:40:27 IST" finished-at="2021-02-25T05:40:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initExtentReport -->
+        <test-method status="PASS" signature="executeTestLevel()[pri:0, instance:testcases.CreateLead@548ad73b]" name="executeTestLevel" is-config="true" duration-ms="8" started-at="2021-02-25T05:40:27 IST" finished-at="2021-02-25T05:40:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeTestLevel -->
+        <test-method status="PASS" signature="getExcel()[pri:0, instance:testcases.CreateLead@548ad73b]" name="getExcel" is-config="true" duration-ms="0" started-at="2021-02-25T05:40:27 IST" depends-on-methods="utils.ExtentReport.executeTestLevel" finished-at="2021-02-25T05:40:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getExcel -->
+        <test-method status="PASS" signature="launchApplication(java.lang.String)[pri:0, instance:testcases.CreateLead@548ad73b]" name="launchApplication" is-config="true" duration-ms="3344" started-at="2021-02-25T05:40:28 IST" finished-at="2021-02-25T05:40:31 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[english]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method status="PASS" signature="runCreateLead(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.CreateLead@548ad73b]" name="runCreateLead" duration-ms="8485" started-at="2021-02-25T05:40:31 IST" data-provider="fetchdata" finished-at="2021-02-25T05:40:40 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Wirpo]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Karthik]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Gunasekaran]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runCreateLead -->
+        <test-method status="PASS" signature="closeFlush()[pri:0, instance:testcases.CreateLead@548ad73b]" name="closeFlush" is-config="true" duration-ms="274" started-at="2021-02-25T05:40:51 IST" finished-at="2021-02-25T05:40:51 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeFlush -->
+      </class> <!-- testcases.CreateLead -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
